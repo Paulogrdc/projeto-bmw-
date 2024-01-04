@@ -1,0 +1,126 @@
+@charset "UFT-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300&family=Ubuntu:ital,wght@0,300;0,400;1,300;1,400;1,500&display=swap');
+
+:root {
+    --font-padraõ:  Arial, Helvetica, sans-serif;
+    --font-importada: 'Open Sans', sans-serif;
+}
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#contenier-principal {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+#logo{
+    flex: 1;
+    text-align: center;
+    margin: 20px 0px 20px 0px ;
+}
+#logo > img {
+        height: 60px;
+}
+#banner {
+    height: 490px;
+    background: black url(imagens/banner.jpg) center center no-repeat;
+    background-size: cover;
+    margin-top: 30px;
+}
+
+.p-banner {
+    color: white; 
+    font-size: 3.5em; 
+    font-family:'Open Sans', sans-serif; 
+    padding: 30px;
+    line-height: 1.3em;
+    
+}
+
+p {
+    padding: 30px;
+    font-family: var(--font-importada);
+    font-size: 1.1em;
+    line-height: 30px;
+}
+.contenier{
+    display: flex;
+    align-items: center;
+    line-height: 27px;
+    padding: 0px;
+    padding-left: 15px;
+}
+
+#BMw-E21 {
+    float: left;
+    margin: 0px 20px 0px 30px;
+}
+
+h1 {
+    font-weight: normal;
+    padding: 0px;
+    padding-left: 15px;
+    padding-bottom: 3px;
+    font-size: 25px;
+}
+
+#BMW-E30 {
+    float: right;
+    margin: 10px 40px 0px 30px ;
+}
+
+#BMW-E36 {
+    float: left;
+    margin: 0px 30px 0px 30px;
+}
+
+#BMW-E46 {
+    float: right;
+    margin: 0px 30px 0px 30px;
+}
+
+#BMWs {
+    float: left;
+    margin: 0px 30px 0px 30px;
+    
+}
+
+#BMWs2 {
+    float: right;
+    margin: 0px 30px 0px 30px;
+}
+
+footer {
+    background-color: rgb(40, 39, 39);
+    text-align: center;
+    height: 100px;
+    padding: 10px;
+}
+
+#rede-social img {
+    height: 40px;
+    border-radius: 50%;
+    margin-bottom: -40px;
+    padding: 5px;
+    padding: 0px;
+    box-sizing: border-box;
+    margin: 0px 5px -40px 0px;
+    
+}
+#rede-social img:hover {
+    border: solid 1px rgba(255, 255, 255, 0.203);
+    transform: translate(-3px, -3px);
+    transition: transform 0.5s;
+
+}
+#copy {
+    color: white;
+    margin-top: 55px;
+    font-weight: normal;
+}
